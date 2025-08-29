@@ -1,3 +1,4 @@
+//Write a Java program to print the multiplication table of a given number up to 4
 import java.util.Scanner;
 
 public class W01_P3 {
@@ -10,4 +11,5 @@ public class W01_P3 {
         }
 in.close();
     }
+
 }
