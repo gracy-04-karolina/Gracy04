@@ -1,5 +1,6 @@
+//Complete the code fragment that reads two integer inputs from keyboard and compute the quotient and remainder.
 import java.util.Scanner;
-public class W01_P4{
+public class main{
        public static void main(String[] args) {
 	   Scanner sc = new Scanner(System.in);
 	   int x=sc.nextInt();
@@ -10,4 +11,5 @@ int quotient=x/y;
         System.out.println("The Remainder is = " + remainder);
 sc.close();  
   }
+
 }
