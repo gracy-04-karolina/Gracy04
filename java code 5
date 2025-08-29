@@ -1,5 +1,6 @@
+//Write a Java program to print the area and perimeter of a rectangle.
 import java.util.Scanner;
-public class W01_P5 { 
+public class main { 
    public static void main(String[] strings) {
        double width ;
        double height;
@@ -17,4 +18,5 @@ public class W01_P5 {
 // Print the calculated area using placeholders for values
        System.out.printf("Area is %.1f * %.1f = %.2f", width, height, area);    
    }
+
 }
