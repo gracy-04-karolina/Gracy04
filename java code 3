@@ -1,7 +1,7 @@
 //Write a Java program to print the multiplication table of a given number up to 4
 import java.util.Scanner;
 
-public class W01_P3 {
+public class main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int number = in.nextInt();
@@ -13,3 +13,4 @@ in.close();
     }
 
 }
+
