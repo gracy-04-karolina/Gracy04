@@ -1,6 +1,7 @@
+// Write a Java program to check if a given integer is “Positive” or “Negative”.
 import java.util.Scanner;
 
-public class W02_P1 {
+public class main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -14,3 +15,4 @@ int area = length * width; // Multiply length and width to get the area
         sc.close();
     }
 }
+
