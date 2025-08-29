@@ -1,7 +1,7 @@
 //Write a Java program to calculate the volume of a cylinder given its radius and height.
 import java.util.Scanner;
 
-public class  {
+public class main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         double radius = in.nextDouble();
@@ -13,3 +13,4 @@ double volume = Math.PI * radius * radius * height;
   }
 
 }
+
