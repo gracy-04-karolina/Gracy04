@@ -1,0 +1,29 @@
+ import java.util.Scanner;
+ public class Nestedtrycatch {
+   
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int num1 = sc.nextInt();
+        int num2 = sc.nextInt();
+
+        try {
+
+            try {
+
+int result = num1 / num2;
+System.out.println("Division successful");
+System.out.println("Result is: " + result);
+} catch (ArithmeticException e) {
+                System.out.println("Cannot divide by zero");
+            }
+
+        } catch (Exception e) {
+            // Handles other unexpected errors
+            System.out.println("An unexpected error occurred");
+        }
+
+        sc.close();
+    }
+}
+    
